@@ -8,8 +8,11 @@ Duy's description: The idea is straightforward: we are going to create a voice a
 ![voice_assistant](https://github.com/vndee/local-talking-llm/assets/28271488/858a6991-9c9b-4518-90a9-8263ad9ad767)
 
 ### Techstack
-First, you should set up a virtual Python environment. You have several options for this, including pyenv, virtualenv, poetry, and others that serve a similar purpose. Personally, I'll use Poetry for this tutorial due to my personal preferences. Here are several crucial libraries you'll need to install:
+First, you should set up a virtual Python environment. 
 
+Do this by cloning this repository, installing Poetry with Pipx and then isntalling from the cloned diretory. 
+
+This installs, anong others: 
 - **rich**: For a visually appealing console output.
 - **openai-whisper**: A robust tool for speech-to-text conversion.
 - **suno-bark**: A cutting-edge library for text-to-speech synthesis, ensuring high-quality audio output.
