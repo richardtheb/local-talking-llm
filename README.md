@@ -1,8 +1,10 @@
-## Build your own voice assistant and run it locally: Whisper + Ollama + Bark
+## Build your own voice assistant and run it locally on a Raspberry Pi 5: Whisper + Ollama + Bark
 
-> Original article: https://blog.duy-huynh.com/build-your-own-voice-assistant-and-run-it-locally/
+> Based upon: https://blog.duy-huynh.com/build-your-own-voice-assistant-and-run-it-locally/
 > 
-After my latest post about how to build your own RAG and run it locally. Today, we're taking it a step further by not only implementing the conversational abilities of large language models but also adding listening and speaking capabilities. The idea is straightforward: we are going to create a voice assistant reminiscent of Jarvis or Friday from the iconic Iron Man movies, which can operate offline on your computer. Since this is an introductory tutorial, I will implement it in Python and keep it simple enough for beginners. Lastly, I will provide some guidance on how to scale the application.
+This is my tweak of a project by Duy Huynh to create a voice assistant. I've tweaked it to run on the more limited resources of the Raspberry Pi 5
+
+Duy's description: The idea is straightforward: we are going to create a voice assistant reminiscent of Jarvis or Friday from the iconic Iron Man movies, which can operate offline on your computer. Since this is an introductory tutorial, I will implement it in Python and keep it simple enough for beginners. Lastly, I will provide some guidance on how to scale the application.
 ![voice_assistant](https://github.com/vndee/local-talking-llm/assets/28271488/858a6991-9c9b-4518-90a9-8263ad9ad767)
 
 ### Techstack
